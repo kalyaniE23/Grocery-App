@@ -31,10 +31,15 @@ header{
 }
 
 .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
     font-size:24px;
     font-weight:bold;
-    color:green;
-    white-space:nowrap;
+}
+.logo-img{
+    width:45px;
+    height:45px;
 }
 
 .location{

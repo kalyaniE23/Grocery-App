@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery app</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <!-- HEADER  -->
+
+    <header>
+
+        <div class="logo">
+            🛒 Grocery App
+        </div>
+
+        <div class="location">
+            Delivering to: Hyderabad
+        </div>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search groceries...">
+        </div>
+
+       <div class="cart">
+
+    <div class="cart-icon">🛒</div>
+
+    <span id="cartCount">0</span>
+
+</div>
+
+    </header>
+
+    <!--  CATEGORY FILTER -->
+
+    <section class="categories">
+
+        <button class="category-btn active" data-category="All">
+            All
+        </button>
+
+        <button class="category-btn" data-category="Fruits & Vegetables">
+            Fruits & Vegetables
+        </button>
+
+        <button class="category-btn" data-category="Dairy & Eggs">
+            Dairy & Eggs
+        </button>
+
+        <button class="category-btn" data-category="Snacks">
+            Snacks
+        </button>
+
+        <button class="category-btn" data-category="Beverages">
+            Beverages
+        </button>
+
+        <button class="category-btn" data-category="Bakery">
+            Bakery
+        </button>
+
+        <button class="category-btn" data-category="Personal Care">
+            Personal Care
+        </button>
+
+    </section>
+
+    <!-- PRODUCT GRID  -->
+
+    <main>
+
+        <div id="productGrid" class="product-grid">
+
+        </div>
+
+        <p id="noProducts" class="no-products">
+            No products found.
+        </p>
+
+    </main>
+
+    <!--  CART SUMMARY -->
+
+    <div id="cartSummary" class="cart-summary">
+
+        <div>
+
+            <h3>
+                Total Items :
+                <span id="totalItems">0</span>
+            </h3>
+
+            <h3>
+                Total Price :
+                ₹<span id="totalPrice">0</span>
+            </h3>
+
+        </div>
+
+        <button id="checkoutBtn">
+            Proceed to Checkout
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

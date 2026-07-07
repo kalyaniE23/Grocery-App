@@ -8,7 +8,7 @@ name:"Apple",
 category:"Fruits & Vegetables",
 weight:"1 kg",
 price:180,
-image:"apple.jpg",
+image:"apple.copy.jpg",
 quantity:0
 },
 {
@@ -17,7 +17,7 @@ name:"Banana",
 category:"Fruits & Vegetables",
 weight:"1 dozen",
 price:60,
-image:"banana.jpg",
+image:"banana.copy.jpg",
 quantity:0
 },
 {
@@ -62,7 +62,7 @@ name:"Chips",
 category:"Snacks",
 weight:"150 g",
 price:30,
-image:"chips.webp",
+image:"chips.copy.webp",
 quantity:0
 },
 {
@@ -71,7 +71,7 @@ name:"Biscuits",
 category:"Snacks",
 weight:"250 g",
 price:40,
-image:"biscuits.webp",
+image:"biscuits.copy.webp",
 quantity:0
 },
 {
@@ -89,7 +89,7 @@ name:"Bread",
 category:"Bakery",
 weight:"400 g",
 price:45,
-image:"bread.webp",
+image:"bread.copy.webp",
 quantity:0
 },
 {
